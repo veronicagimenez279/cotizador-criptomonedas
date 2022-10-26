@@ -11,26 +11,11 @@ function App() {
     moneda: ''
   })
 
-  // const [nombres, guardarNombres] = useState({})
   const [consultar, guardarConsulta] = useState(false)
   const [resultado, guardarResultado] = useState({})
 
 
-
-
   const { criptomoneda, moneda } = busqueda
-
-
-  // useEffect(() => {
-  //   const consultarAPInombres = async () => {
-  //     const url_nombres = `https://min-api.cryptocompare.com/data/top/mktcapfull?limit=20&tsym=USD`;
-  //     const respuesta_nombres = await fetch(url_nombres)
-  //     const resultado_nombres = await respuesta_nombres.json()
-  //     const nombres = (resultado_nombres.Data.map(coin => [`${coin.CoinInfo.Name}`, `${coin.CoinInfo.FullName}`]))
-  //     guardarNombres(nombres)
-  //   }
-  //   consultarAPInombres();
-  // }, [])
 
 
   useEffect(() => {
@@ -51,7 +36,7 @@ function App() {
 
     <>
       <Header
-        titulo='Cotizacion Criptomonedas'
+        titulo='Cotizador Criptomonedas'
       />
 
       <div className="container-form">
@@ -62,8 +47,6 @@ function App() {
                 busqueda={busqueda}
                 guardarBusqueda={guardarBusqueda}
                 guardarConsulta={guardarConsulta}
-              // guardarNombres={guardarNombres}
-              // nombres={nombres}
 
               />
             </div>

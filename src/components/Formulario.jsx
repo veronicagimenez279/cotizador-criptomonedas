@@ -34,7 +34,6 @@ export const Formulario = ({ busqueda, guardarBusqueda, guardarConsulta }) => {
         guardarConsulta(true)
 
 
-        // pasarlo al componente principal
     }
 
 
@@ -82,26 +81,6 @@ export const Formulario = ({ busqueda, guardarBusqueda, guardarConsulta }) => {
                     <option value="SHIB">Shiba Inu</option>
                     <option value="TRX">TRON</option>
 
-                    {/* <option value={nombres[0][0]}>{nombres[0][1]}</option>
-                    <option value={nombres[1][0]}>{nombres[1][1]}</option>
-                    <option value={nombres[2][0]}>{nombres[2][1]}</option>
-                    <option value={nombres[3][0]}>{nombres[3][1]}</option>
-                    <option value={nombres[4][0]}>{nombres[4][1]}</option>
-                    <option value={nombres[5][0]}>{nombres[5][1]}</option>
-                    <option value={nombres[6][0]}>{nombres[6][1]}</option>
-                    <option value={nombres[7][0]}>{nombres[7][1]}</option>
-                    <option value={nombres[8][0]}>{nombres[8][1]}</option>
-                    <option value={nombres[9][0]}>{nombres[9][1]}</option>
-                    <option value={nombres[10][0]}>{nombres[10][1]}</option>
-                    <option value={nombres[11][0]}>{nombres[11][1]}</option>
-                    <option value={nombres[12][0]}>{nombres[12][1]}</option>
-                    <option value={nombres[13][0]}>{nombres[13][1]}</option>
-                    <option value={nombres[14][0]}>{nombres[14][1]}</option>
-                    <option value={nombres[15][0]}>{nombres[15][1]}</option>
-                    <option value={nombres[16][0]}>{nombres[16][1]}</option>
-                    <option value={nombres[17][0]}>{nombres[17][1]}</option>
-                    <option value={nombres[18][0]}>{nombres[18][1]}</option>
-                    <option value={nombres[19][0]}>{nombres[19][1]}</option> */}
                 </select>
                 <label htmlFor="criptomoneda"></label>
             </div>
