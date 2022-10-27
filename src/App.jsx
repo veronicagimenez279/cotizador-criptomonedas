@@ -24,7 +24,7 @@ function App() {
       const url = ` https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${criptomoneda}&tsyms=${moneda}`
       const respuesta = await fetch(url)
       const resultado = await respuesta.json()
-      guardarResultado(resultado.RAW[criptomoneda][moneda])
+      guardarResultado(resultado.DISPLAY[criptomoneda][moneda])
 
     }
     consultarAPI();

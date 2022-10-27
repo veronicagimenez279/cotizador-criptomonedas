@@ -106,7 +106,7 @@ export const Formulario = ({ busqueda, guardarBusqueda, guardarConsulta }) => {
                 <input
                     type="submit"
                     value="ENVIAR"
-                    className="waves-effect waves-light btn-large btn-block pink"
+                    className="waves-effect waves-purple btn-large btn-block pink"
                 />
             </div>
         </form>

@@ -15,16 +15,21 @@ export const Crypto = ({ resultado }) => {
                     <div className="col s10 left-align">
                         <span className="black-text s2">
                             <blockquote className='text-bold'>
-                                Cotizacion del dia: {resultado.PRICE} {resultado.TOSYMBOL}
+                                Cotizacion del dia: {resultado.PRICE}
                                 <p></p>
-                                Precio más alto del dia: {resultado.HIGHDAY} {resultado.TOSYMBOL}
+                                Precio más alto del dia: {resultado.HIGHDAY}
                                 <p></p>
-                                Precio más bajo del dia: {resultado.LOWDAY} {resultado.TOSYMBOL}
+                                Precio más bajo del dia: {resultado.LOWDAY}
                                 <p></p>
-                                Variación de las últimas 24 horas: {resultado.VOLUME24HOUR} {resultado.TOSYMBOL}
+                                Variación de las últimas 24 horas: {resultado.VOLUME24HOUR}
                             </blockquote>
                         </span>
+
+
                     </div>
+                </div>
+                <div className='center-align grey-text'>
+                    Ultima actualizacion: {resultado.LASTUPDATE}
                 </div>
             </div>
         </div>
